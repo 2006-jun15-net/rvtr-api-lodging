@@ -1,6 +1,7 @@
 env:
   CACHE_KEY_PREFIX: aspnet-lodging
   WORKING_DIRECTORY: aspnet
+  GITHUB_TOKEN: ${{ secrets.SonarCloudKey }}
 
 jobs:
   restore:
