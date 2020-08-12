@@ -1,0 +1,8 @@
+# exclude - all
+*
+
+# include - some
+!*.sln
+!**/*.cs
+!**/*.csproj
+!**/appsettings.json
